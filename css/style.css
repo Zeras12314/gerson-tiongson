@@ -18,7 +18,7 @@ body {
 
 .hamburger-menu {
   transform: translateX(-1.2em);
-  width:100vh;
+ 
 }
 header .carousel-inner .item {
   height: 100vh;
