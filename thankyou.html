@@ -14,12 +14,38 @@
     }
 
     .container img {
-      width: 230px;
+      width: 320px;
     }
 
+    a {
+      font-family: "Open Sans", sans-serif;
+      padding-top: 1rem;
+      text-align: right;
+      text-decoration: none;
+      color: #707070;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    a::before {
+      content: "";
+      display: inline-block;
+      background: url(./images/return.png);
+      background-size: cover;
+      width: 20px;
+      height: 10px;
+      transform: translateX(-5px);
+    }
     @media (min-width: 576px) {
       .container img {
         width: 400px;
+      }
+    }
+    @media (min-width: 768px) {
+      .container img {
+        width: 500px;
       }
     }
   </style>
@@ -27,6 +53,7 @@
   <body>
     <div class="container">
       <img src="./images/thankyou.png" alt="" />
+      <a href="https://gerson-tiongson.vercel.app/">Back to Home</a>
     </div>
   </body>
 </html>
