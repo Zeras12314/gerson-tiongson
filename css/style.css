@@ -15,6 +15,10 @@ body {
   font-family: "Open Sans", sans-serif;
   overflow-x: hidden;
 }
+
+.hamburger-menu {
+  transform: translateX(-1.2em);
+}
 header .carousel-inner .item {
   height: 100vh;
 }
